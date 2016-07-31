@@ -58,8 +58,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<inherited>true</inherited>
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<source>1.8</source>
+						<target>1.8</target>
 						<encoding>utf-8</encoding>
 					</configuration>
 				</plugin>
@@ -168,7 +168,7 @@
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.7</version>
+				<version>4.11</version>
 				<scope>test</scope>
 			</dependency>
 		</dependencies>
@@ -183,7 +183,7 @@
 		<dependency>
 			<groupId>com.esotericsoftware</groupId>
 			<artifactId>kryo</artifactId>
-			<version>3.0.3</version>
+			<version>4.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
@@ -211,7 +211,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>17.0</version>
+			<version>19.0</version>
 			<optional>true</optional>
 		</dependency>
 
